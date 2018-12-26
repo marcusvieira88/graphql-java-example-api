@@ -32,12 +32,12 @@ http://localhost:8080/graphql-api
 
 #### Queries Objects
 
-###### User
+**User**
 <p>id</p>
 <p>name</p>
 <p>email</p>
 
-###### Message
+**Message**
 <p>id</p>
 <p>createdAt</p>
 <p>message</p>
