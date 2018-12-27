@@ -1,6 +1,7 @@
 # Introduction
 
-This is a GraphQl API implemented in Java, , it is used as example in my blog (https://marcusvieira.tech) tutorials.
+This is a GraphQl API implemented in Java, it is used as example in my blog (https://marcusvieira.tech) tutorials.
+For run this project you need to install MongoDB or build and run the Docker image.
 
 ## Install
 
@@ -17,6 +18,12 @@ mvn jetty:run
 
 ```
 http://localhost:8080/
+```
+
+## For run in environment with Java, MongoDb and Maven intalled, please run:
+```
+docker build -t <your-docker-hub-account>/java_8-mongodb-maven .
+docker run -p 8080:8080 -t <your-docker-hub-account>/java_8-mongodb-maven
 ```
 
 ## Api
