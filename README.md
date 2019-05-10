@@ -1,6 +1,6 @@
 # Introduction
 
-This is a GraphQl API implemented in Java, it is used as example in my blog (https://marcusvieira.tech) tutorials.
+This is a GraphQl API implemented in Java, it is used as example in my [blog tutorials](https://marcusvieira.tech/2018/12/27/how-to-create-queries-in-graphql/).
 For run this project you need to install MongoDB or build and run the Docker image.
 
 ## Install
